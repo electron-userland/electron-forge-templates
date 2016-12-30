@@ -1,8 +1,8 @@
 {
-  "name": "test",
-  "productName": "test",
+  "name": "vue-test",
+  "productName": "vue-test",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Vue 2.0 example application",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -15,7 +15,7 @@
     "forge": {
       "make_targets": {
         "win32": [
-          "appx"
+          "squirrel"
         ],
         "darwin": [
           "zip"
@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "babel-preset-stage-0": "^6.16.0",
+    "electron-devtools-installer": "^2.0.1",
     "electron-prebuilt-compile": "1.4.12",
     "eslint": "^3.12.2",
     "eslint-config-airbnb": "^13.0.0",
