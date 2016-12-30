@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div id="test"></div>
+  </body>
+
+  <script>
+  import Vue from 'vue';
+  import Test from './test';
+
+  const app = new Vue({
+    el: '#test',
+    data: { text: '' },
+    render: Test.render
+  });
+
+  app.text = "Vue.js!";
+  </script>
+</html>
