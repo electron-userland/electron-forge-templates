@@ -1,6 +1,6 @@
 {
-  "name": "vue-test",
-  "productName": "vue-test",
+  "name": "vue-starter",
+  "productName": "vue-starter",
   "version": "1.0.0",
   "description": "Vue 2.0 example application",
   "main": "src/index.js",
