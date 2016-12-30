@@ -27,7 +27,7 @@ Yes!
 
 * Vue 2.0
 * React
+* React with TypeScript support
 * Angular 1.x
 * Angular 2.x
 * Ember
-* Aurelia
