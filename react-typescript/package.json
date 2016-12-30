@@ -1,15 +1,15 @@
 {
-  "name": "react-starter",
-  "productName": "react-starter",
+  "name": "react-starter-ts",
+  "productName": "react-starter-ts",
   "version": "1.0.0",
-  "description": "React basic example application (without Redux)",
+  "description": "React basic example application in TypeScript (without Redux)",
   "main": "src/index.ts",
   "scripts": {
     "start": "electron-forge start",
     "lint": "eslint src"
   },
   "keywords": [],
-  "author": "paulb",
+  "author": "Fill in your name here!",
   "license": "MIT",
   "config": {
     "forge": {
