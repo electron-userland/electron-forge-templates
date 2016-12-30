@@ -1,0 +1,56 @@
+{
+  "name": "react-starter",
+  "productName": "react-starter",
+  "version": "1.0.0",
+  "description": "React basic example application (without Redux)",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "electron-forge start",
+    "lint": "eslint src"
+  },
+  "keywords": [],
+  "author": "paulb",
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "make_targets": {
+        "win32": [
+          "squirrel"
+        ],
+        "darwin": [
+          "zip"
+        ],
+        "linux": [
+          "deb",
+          "rpm"
+        ]
+      },
+      "electronPackagerConfig": {},
+      "electronWinstallerConfig": {
+        "name": "test"
+      },
+      "electronInstallerDebian": {},
+      "electronInstallerRedhat": {}
+    }
+  },
+  "dependencies": {
+    "@types/electron": "^1.4.30",
+    "@types/react": "^0.14.55",
+    "@types/react-dom": "^0.14.20",
+    "electron-compile": "^5.1.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "tslib": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.16.0",
+    "electron-devtools-installer": "^2.0.1",
+    "electron-prebuilt-compile": "1.4.12",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "typescript": "^2.1.4"
+  }
+}
