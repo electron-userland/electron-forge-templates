@@ -1,6 +1,6 @@
 ## electron-forge examples
 
-This repo helps you to get started with many of the popular web frameworks in Electron, by providing a ready-to-go template based on [electron-forge](github.com/electron-userland/electron-forge/).
+This repo helps you to get started with many of the popular web frameworks in Electron, by providing a ready-to-go template based on [electron-forge](https://github.com/electron-userland/electron-forge/).
 
 ## How do I try these out?
 
