@@ -1,0 +1,54 @@
+{
+  "name": "angular2-starter",
+  "productName": "angular2-starter",
+  "version": "1.0.0",
+  "description": "Angular2 basic example application",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "electron-forge start",
+    "lint": "tslint src"
+  },
+  "keywords": [],
+  "author": "Fill in your name here!",
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "make_targets": {
+        "win32": [
+          "squirrel"
+        ],
+        "darwin": [
+          "zip"
+        ],
+        "linux": [
+          "deb",
+          "rpm"
+        ]
+      },
+      "electronPackagerConfig": {},
+      "electronWinstallerConfig": {
+        "name": "test"
+      },
+      "electronInstallerDebian": {},
+      "electronInstallerRedhat": {}
+    }
+  },
+  "dependencies": {
+    "@angular/common": "^2.4.1",
+    "@angular/compiler": "^2.4.1",
+    "@angular/core": "^2.4.1",
+    "@angular/platform-browser": "^2.4.1",
+    "@angular/platform-browser-dynamic": "^2.4.1",
+    "@types/electron": "^1.4.30",
+    "electron-compile": "^5.1.0",
+    "reflect-metadata": "^0.1.9",
+    "tslib": "^1.4.0",
+    "zone.js": "^0.7.4"
+  },
+  "devDependencies": {
+    "electron-devtools-installer": "^2.0.1",
+    "electron-prebuilt-compile": "1.4.12",
+    "tslint": "^4.2.0",
+    "typescript": "^2.1.4"
+  }
+}
