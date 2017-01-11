@@ -1,0 +1,20 @@
+{
+  "name": "forge-templates",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Template omni-repo for forge",
+  "main": "index.js",
+  "repository": "git@github.com:electron-userland/forge-examples.git",
+  "author": "Electron Userland",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "electron-forge": "^2.6.0",
+    "fs": "^0.0.1-security",
+    "mocha": "^3.2.0",
+    "rimraf": "^2.5.4"
+  },
+  "scripts": {
+    "test": "mocha __test__/*.js --timeout=120000"
+  }
+}
