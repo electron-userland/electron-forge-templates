@@ -16,9 +16,10 @@
         "inlineSources": true,
         "importHelpers": true,
         "noEmitHelpers": true,
+        "experimentalDecorators": true,
         "target": "es2015",
-        "jsx": "react",
-        "doSemanticChecks": false
+        "module": "commonjs",
+        "jsx": "react"
       }
     },
     "production": {
@@ -36,9 +37,9 @@
         "sourceMap": false,
         "importHelpers": true,
         "noEmitHelpers": true,
+        "experimentalDecorators": true,
         "target": "es2015",
-        "jsx": "react",
-        "doSemanticChecks": false
+        "jsx": "react"
       }
     }
   }
