@@ -1,11 +1,11 @@
 {
-  "name": "electron-forge-template-angular2",
+  "name": "electron-forge-template-vue",
   "version": "1.0.0",
-  "description": "Basic Angular2 Electron starter application",
+  "description": "Basic Vue.JS Electron starter application",
   "main": "index.js",
   
   "keywords": [
-    "angular",
+    "vue",
     "electron",
     "forge",
     "starter"
