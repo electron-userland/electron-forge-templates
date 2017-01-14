@@ -9,12 +9,12 @@ module.exports = {
     '@angular/platform-browser@^2.4.1',
     '@angular/platform-browser-dynamic@^2.4.1',
     '@types/electron@^1.4.30',
+    'electron-devtools-installer@^2.0.1',
     'reflect-metadata@^0.1.9',
     'tslib@^1.4.0',
     'zone.js@^0.7.4'
   ],
   devDependencies: [
-    'electron-devtools-installer@^2.0.1',
     'tslint@^4.2.0',
     'typescript@^2.1.4'
   ],
