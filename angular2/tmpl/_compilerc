@@ -18,7 +18,8 @@
         "noEmitHelpers": true,
         "experimentalDecorators": true,
         "target": "es2015",
-        "module": "commonjs"
+        "module": "commonjs",
+        "emitDecoratorMetadata": true
       }
     },
     "production": {
@@ -38,7 +39,8 @@
         "noEmitHelpers": true,
         "experimentalDecorators": true,
         "target": "es2015",
-        "module": "commonjs"
+        "module": "commonjs",
+        "emitDecoratorMetadata": true
       }
     }
   }
