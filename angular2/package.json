@@ -1,6 +1,6 @@
 {
   "name": "electron-forge-template-angular2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic Angular2 Electron starter application",
   "main": "index.js",
   
