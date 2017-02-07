@@ -18,7 +18,8 @@
     "moduleResolution": "node",
     "pretty": true,
     "target": "es2015",
-    "outDir": "dist"
+    "outDir": "dist",
+    "emitDecoratorMetadata": true
   },
   "formatCodeOptions": {
     "indentSize": 2,
