@@ -8,6 +8,9 @@ let mainWindow;
 
 const isDevMode = process.execPath.match(/[\\/]electron/);
 
+let electronReload:any = require('electron-reload');
+electronReload(__dirname);
+
 const createWindow = async () => {
   // Create the browser window.
   mainWindow = new BrowserWindow({
