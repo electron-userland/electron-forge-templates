@@ -13,8 +13,7 @@ module.exports = {
   ],
   devDependencies: [
     'tslint@^4.2.0',
-    'typescript@^2.1.4',
-    'electron-reload@^1.1.0'
+    'typescript@^2.1.4'
   ],
   templateDirectory: path.resolve(__dirname, './tmpl'),
   postCopy: (initDir, ora, lintStyle) => {
