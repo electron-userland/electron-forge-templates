@@ -8,6 +8,7 @@ module.exports = {
     '@types/electron@^1.4.30',
     '@types/react@^0.14.55',
     '@types/react-dom@^0.14.20',
+    "@types/electron-devtools-installer@^2.0.2",
     'electron-devtools-installer@^2.0.1',
     'tslib@^1.4.0'
   ],
