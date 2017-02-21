@@ -9,9 +9,10 @@ module.exports = {
     '@types/react@^0.14.55',
     '@types/react-dom@^0.14.20',
     'electron-devtools-installer@^2.0.1',
-    'tslib@^1.4.0'
+    'tslib@^1.4.0',
   ],
   devDependencies: [
+    'react-hot-loader@^3.0.0-beta.6',
     'tslint@^4.2.0',
     'typescript@^2.1.4'
   ],
