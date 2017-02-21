@@ -10,8 +10,16 @@
 <script type="text/jsx">
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app';
+import {AppContainer} from 'react-hot-loader';
 
-ReactDOM.render(<App />, document.getElementById('App'));
+const render = () => {
+  const App = require('./app').App;
+  ReactDOM.render(<AppContainer><App /></AppContainer>, document.getElementById('App'));
+}
+
+render();
+if (module.hot) {
+  module.hot.accept(render);
+}
 </script>
 </html>
