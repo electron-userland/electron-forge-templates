@@ -8,7 +8,9 @@ let mainWindow;
 
 const isDevMode = process.execPath.match(/[\\/]electron/);
 
-enableLiveReload();
+if(isDevMode) {
+  enableLiveReload();
+}
 
 const createWindow = async () => {
   // Create the browser window.
