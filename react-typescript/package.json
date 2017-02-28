@@ -1,6 +1,6 @@
 {
   "name": "electron-forge-template-react-typescript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Basic React + Typescript Electron starter application",
   "main": "index.js",
   
