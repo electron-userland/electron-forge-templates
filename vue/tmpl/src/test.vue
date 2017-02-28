@@ -5,6 +5,10 @@
 <script>
 export default {
   name: 'test',
-  props: ['text']
+  data () {
+    return {
+       text: ''
+    }
+  }
 }
 </script>

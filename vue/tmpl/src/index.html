@@ -12,12 +12,9 @@
   import Vue from 'vue';
   import Test from './test';
 
-  const app = new Vue({
-    el: '#test',
-    data: { text: '' },
-    render: Test.render
-  });
+  const app = new Vue(Test).$mount('#test');
 
-  app.text = "Welcome to Electron Forge with Vue.js!";
+  app.text = "Electron Forge with Vue.js!";
+
   </script>
 </html>

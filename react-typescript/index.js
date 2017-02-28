@@ -8,13 +8,14 @@ module.exports = {
     '@types/electron@^1.4.30',
     '@types/react@^0.14.55',
     '@types/react-dom@^0.14.20',
+    "@types/electron-devtools-installer@^2.0.2",
     'electron-devtools-installer@^2.0.1',
     'react-hot-loader@^3.0.0-beta.6',
     'tslib@^1.4.0',
   ],
   devDependencies: [
     'tslint@^4.2.0',
-    'typescript@^2.1.4'
+    'typescript@~2.1.4'
   ],
   templateDirectory: path.resolve(__dirname, './tmpl'),
   postCopy: (initDir, ora, lintStyle) => {
