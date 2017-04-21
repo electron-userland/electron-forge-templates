@@ -14,8 +14,8 @@ module.exports = {
     'tslib@^1.4.0',
   ],
   devDependencies: [
-    'tslint@^4.2.0',
-    'typescript@~2.1.4'
+    'tslint@^5.1.0',
+    'typescript@~2.2.2'
   ],
   templateDirectory: path.resolve(__dirname, './tmpl'),
   postCopy: (initDir, ora, lintStyle) => {
@@ -23,7 +23,7 @@ module.exports = {
     if (fs.existsSync(oldIndex)) fs.unlinkSync(oldIndex);
     const packageJSON = require(path.resolve(initDir, 'package.json'));
     packageJSON.main = 'src/index.ts';
-    packageJSON.scripts.lint = 'tslint src';
+    packageJSON.scripts.lint = 'tslint --project tsconfig.json --type-check --force';
     fs.writeFileSync(path.resolve(initDir, 'package.json'), JSON.stringify(packageJSON, null, 2));
   },
 };
