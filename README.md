@@ -30,7 +30,10 @@ Yes!
 * React with TypeScript support
 * Angular 2.x
 
+## Unsupported frameworks
+
+* Ember (use [ember-electron](https://github.com/felixrieseberg/ember-electron), which depends on Electron Forge)
+
 ## Coming soon
 
 * Angular 1.x
-* Ember
