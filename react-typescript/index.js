@@ -5,7 +5,6 @@ module.exports = {
   dependencies: [
     'react@^15.4.1',
     'react-dom@^15.4.1',
-    '@types/electron@^1.4.30',
     '@types/react@^0.14.55',
     '@types/react-dom@^0.14.20',
     "@types/electron-devtools-installer@^2.0.2",

@@ -8,7 +8,6 @@ module.exports = {
     '@angular/core@^2.4.1',
     '@angular/platform-browser@^2.4.1',
     '@angular/platform-browser-dynamic@^2.4.1',
-    '@types/electron@^1.4.30',
     'electron-devtools-installer@^2.0.1',
     'reflect-metadata@^0.1.9',
     'tslib@^1.4.0',
