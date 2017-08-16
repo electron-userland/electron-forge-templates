@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'App',
   template:
   `<div>
-    <h2>Welcome to {{name}} Angular2!</h2>
+    <h2>Welcome to {{name}} Angular4!</h2>
   </div>`
 })
 export class AppComponent implements OnInit {

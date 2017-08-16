@@ -3,20 +3,21 @@ const path = require('path');
 
 module.exports = {
   dependencies: [
-    '@angular/common@^2.4.1',
-    '@angular/compiler@^2.4.1',
-    '@angular/core@^2.4.1',
-    '@angular/platform-browser@^2.4.1',
-    '@angular/platform-browser-dynamic@^2.4.1',
-    'electron-devtools-installer@^2.1.0',
-    'reflect-metadata@^0.1.9',
-    'tslib@^1.4.0',
-    'zone.js@^0.7.4'
+    '@angular/common@^4.3.4',
+    '@angular/compiler@^4.3.4',
+    '@angular/core@^4.3.4',
+    '@angular/platform-browser@^4.3.4',
+    '@angular/platform-browser-dynamic@^4.3.4',
+    'electron-devtools-installer@^2.2.0',
+    'reflect-metadata@^0.1.10',
+    'tslib@^1.7.1',
+    'zone.js@^0.8.16'
   ],
   devDependencies: [
-    'tslint@^4.2.0',
-    'typescript@~2.1.4'
+    'tslint@^4.5.1',
+    'typescript@^2.4.2'
   ],
+
   templateDirectory: path.resolve(__dirname, './tmpl'),
   postCopy: (initDir, ora, lintStyle) => {
     const oldIndex = path.resolve(initDir, 'src', 'index.js');
