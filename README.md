@@ -34,6 +34,8 @@ Yes!
 
 * Ember (use [ember-electron](https://github.com/felixrieseberg/ember-electron), which depends on Electron Forge)
 
+## [Third party templates](https://github.com/electron-userland/electron-forge-templates/wiki/Third-Party-Templates)
+
 ## Coming soon
 
-* Angular 1.x
+* Angular 1.x ([help wanted](https://github.com/electron-userland/electron-forge-templates/issues/3))
