@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   dependencies: [
-    'electron-devtools-installer@^2.0.1',
+    'electron-devtools-installer@^2.1.0',
     'vue@^2.1.7'
   ],
   devDependencies: [],
