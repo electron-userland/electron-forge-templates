@@ -1,14 +1,13 @@
 {
   "name": "electron-forge-template-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Basic ReactJS Electron starter application",
   "main": "index.js",
-  
   "keywords": [
-      "react",
-      "electron",
-      "forge",
-      "starter"
+    "react",
+    "electron",
+    "forge",
+    "starter"
   ],
   "author": "Electron Userland",
   "license": "MIT"
