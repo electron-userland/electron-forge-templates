@@ -10,7 +10,6 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "electron-forge": "^2.6.0",
-    "fs": "^0.0.1-security",
     "mocha": "^3.2.0",
     "rimraf": "^2.5.4"
   },
