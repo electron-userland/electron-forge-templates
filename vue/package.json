@@ -1,9 +1,8 @@
 {
   "name": "electron-forge-template-vue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Basic Vue.JS Electron starter application",
   "main": "index.js",
-  
   "keywords": [
     "vue",
     "electron",
