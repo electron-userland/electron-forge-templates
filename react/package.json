@@ -1,6 +1,6 @@
 {
   "name": "electron-forge-template-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Basic ReactJS Electron starter application",
   "main": "index.js",
   "keywords": [
