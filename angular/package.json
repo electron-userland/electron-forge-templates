@@ -1,7 +1,7 @@
 {
-  "name": "electron-forge-template-angular4",
+  "name": "electron-forge-template-angular",
   "version": "1.0.6",
-  "description": "Basic Angular4 Electron starter application",
+  "description": "Basic Angular Electron starter application",
   "main": "index.js",
   "keywords": [
     "angular",

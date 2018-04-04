@@ -28,7 +28,7 @@ Yes!
 * Vue 2.0
 * React
 * React with TypeScript support
-* Angular 2.x
+* Angular >= 4.0
 
 ## Unsupported frameworks
 
