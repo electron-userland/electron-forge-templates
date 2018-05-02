@@ -4,16 +4,16 @@ const path = require('path');
 module.exports = {
   dependencies: [
     'electron-devtools-installer@^2.1.0',
-    'react@^15.4.1',
-    'react-dom@^15.4.1',
-    'react-hot-loader@^3.0.0-beta.6',
+    'react@^16.3.2',
+    'react-dom@^16.3.2',
+    'react-hot-loader@^4.1.2',
   ],
   devDependencies: [
     'babel-plugin-transform-es2015-classes',
-    'eslint@^3',
-    'eslint-config-airbnb@^15',
+    'eslint@^4',
+    'eslint-config-airbnb@^16',
     'eslint-plugin-import@^2',
-    'eslint-plugin-jsx-a11y@^5',
+    'eslint-plugin-jsx-a11y@^6',
     'eslint-plugin-react@^7'
   ],
   templateDirectory: path.resolve(__dirname, './tmpl'),
