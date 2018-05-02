@@ -1,9 +1,18 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import { AppContainer } from 'react-hot-loader';
 
-export default class App extends React.Component {
+class App extends React.Component {
   render() {
-    return (<div>
-      <h2>Welcome to React!</h2>
-    </div>);
+    return (<h2>Welcome to React!</h2>);
   }
+}
+
+const render = () => {
+  ReactDOM.render(<AppContainer><App /></AppContainer>, document.getElementById('root'));
+};
+
+render();
+if (module.hot) {
+  module.hot.accept(render);
 }
