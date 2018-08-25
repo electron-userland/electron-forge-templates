@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .ng-hide {
+        display: none !important;
+      }
+    </style>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <base href="/">
+  </head>
+  <body style="overflow: hidden; background-color: rgba(0,0,0,0); margin: 0" ng-app="app">
+    <app></app>
+  </body>
+  <script>
+    import angular from 'angular';
+    const app = angular.module('app', []);
+    app.component('app', {
+      template: `
+        <main>
+          <h1>Welcome to Angular1!</h1>
+        </main>`
+    });
+  </script>
+</html>

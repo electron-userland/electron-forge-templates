@@ -1,0 +1,14 @@
+{
+  "name": "electron-forge-template-angular1",
+  "version": "1.0.0",
+  "description": "Basic Angular1 Electron starter application",
+  "main": "index.js",
+  "keywords": [
+    "angular",
+    "electron",
+    "forge",
+    "starter"
+  ],
+  "author": "Electron Userland",
+  "license": "MIT"
+}
