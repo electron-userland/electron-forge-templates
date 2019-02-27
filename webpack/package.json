@@ -1,0 +1,17 @@
+{
+  "name": "@electron-forge/template-webpack",
+  "version": "0.1.0",
+  "description": "Electron Forge template for Webpack",
+  "main": "index.js",
+  "author": "Electron Forge",
+  "keywords": [
+    "electron",
+    "forge",
+    "starter",
+    "webpack"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^7.0.1"
+  }
+}
